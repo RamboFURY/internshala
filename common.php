@@ -9,11 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Car Rentals</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="images\apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images\favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images\favicon-16x16.png">
-    <link rel="manifest" href="images\site.webmanifest">
-    <script src="https://kit.fontawesome.com/e394687089.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="images\apple-touch-icon.jpg">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="images\favicon.jpg">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="images\favicon.jpg">
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top">
