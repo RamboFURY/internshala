@@ -19,7 +19,14 @@ class dbconnector
     global $dblink;
     $query = $dblink->prepare("INSERT INTO credentials (u_name, name, mobile, dob, password, email) values(?,?,?,?,?,?)");
     $query->bind_param("ssisss",$u_name,$name,$mobile,$dob,$password,$email);
-    $query->execute();
+    if($query->execute())
+{
+ return 1;
+}
+ else
+{
+return 0;
+}
   }
 
   public function verifyentry($u_name,$password)
@@ -30,12 +37,5 @@ class dbconnector
     $query->execute();
     return $query->get_result();
   }
-
-public function addfunc($waste,$quantity,$age,$address)
-{
-  global $dblink;
-  $query = $dblink->prepare("INSERT INTO waste_form(waste,quantity,age,address) values(?,?,?,?)");
-  $query->bind_param("siis",$waste,$quantity,$age,$address);
-  $query->execute();
 }
-}
+?>

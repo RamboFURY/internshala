@@ -9,7 +9,7 @@ $dbconnection->connect();
   {
     $_SESSION['u_name'] = $_POST['u_name'];
     $_SESSION['password'] = $row['password'];
-    header("Location:dashboard.php");
+    header("Location:available_car_rent.php");
   }
   else
   {

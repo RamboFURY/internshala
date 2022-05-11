@@ -6,9 +6,9 @@
                 <div class="col-xs-4 col-xs-offset-4">
 <br><br>
                     <div class="panel panel-primary">
-                        <div class="panel-heading"><h3> Customer Registration</h3></div>
+                        <div class="panel-heading"><h3>Customer Registration</h3></div>
                         <div class="panel-body">
-                          <form method="POST" action="adduser.php" name="addentry">
+                          <form method="POST" action="addcustomer.php" name="addentry">
                           <div class="form-group">
 
                                   <label for="u_name">User Name</label>

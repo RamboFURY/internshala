@@ -20,24 +20,24 @@
         <form method="POST" action="adduser.php" name="addentry">
         <div class="form-group">
 
-                <label for="u_name">Vehicle Model</label>
-                <input type="text" class="form-control" id="u_name" required="required" name="u_name" placeholder="Enter the Manufacturer/Chasis number/Car type.">
+                <label for="v_name">Vehicle Model</label>
+                <input type="text" class="form-control" id="v_name" required="required" name="v_name" placeholder="Enter the Manufacturer/Chasis number/Car type.">
             </div>
 
   <div class="form-group">
 
-          <label for="name">Vehicle Number</label>
-          <input type="text" class="form-control" id="name" required="required" name="name" placeholder="Enter the vehicle RTO authorized number.">
+          <label for="number">Vehicle Number</label>
+          <input type="text" class="form-control" id="number" required="required" name="number" placeholder="Enter the vehicle RTO authorized number.">
       </div>
       <div class="form-group">
 
-              <label for="mobile">Seating Capacity</label>
-              <input type="tel" class="form-control" id="mobile" required="required" name="mobile"  placeholder="Enter the number of passengers the vehicle can carry.">
+              <label for="capacity">Seating Capacity</label>
+              <input type="number" class="form-control" id="capacity" required="required" name="capacity"  placeholder="Enter the number of passengers the vehicle can carry.">
           </div>
       <div class="form-group">
 
-              <label for="dob">Rent Per Day</label>
-              <input type="date" class="form-control" id="dob" required="required" name="dob"  placeholder="Enter the rate per day of vehicle in INR.">
+              <label for="rent">Rent Per Day</label>
+              <input type="number" class="form-control" id="rent" required="required" name="rent"  placeholder="Enter the rate per day of vehicle in INR.">
           </div>
 
 
