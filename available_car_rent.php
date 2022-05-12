@@ -76,7 +76,8 @@
         $sn++;}}else{ ?>
         <tr>
           <td colspan="8">
-      <?php echo $fetchData; ?>
+      <?php echo
+      $fetchData; ?>
     </td>
       <tr>
       <?php
